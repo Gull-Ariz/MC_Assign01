@@ -59,4 +59,22 @@
         app:layout_constraintTop_toBottomOf="@+id/button"
         tools:srcCompat="@tools:sample/backgrounds/scenic" />
 
+    <Switch
+        android:id="@+id/switch2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="302dp"
+        android:layout_marginRight="302dp"
+        android:layout_marginBottom="308dp"
+        android:text="Switch"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
